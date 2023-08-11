@@ -1,5 +1,68 @@
 # Changelog
 
+## [0.10.0](https://github.com/aligh98/taiko-mono/compare/bridge-ui-v0.9.1...bridge-ui-v0.10.0) (2023-08-11)
+
+
+### Features
+
+* **bridge-ui:** add custom ERC20 tokens support ([#13170](https://github.com/aligh98/taiko-mono/issues/13170)) ([227d8de](https://github.com/aligh98/taiko-mono/commit/227d8de30c10a2d84d0fb390b3709b32d0aee8b8))
+* **bridge-ui:** add outgoing link to bridge docs ([#13391](https://github.com/aligh98/taiko-mono/issues/13391)) ([1b3c268](https://github.com/aligh98/taiko-mono/commit/1b3c268fb15f9a9e6be8ebc83d588ed4279237ff))
+* **bridge-ui:** add token to wallet ([#13902](https://github.com/aligh98/taiko-mono/issues/13902)) ([683b19c](https://github.com/aligh98/taiko-mono/commit/683b19cab30bf8c9c713e889f969336e04641187))
+* **bridge-ui:** add transaction list pagination ([#13586](https://github.com/aligh98/taiko-mono/issues/13586)) ([a3b7498](https://github.com/aligh98/taiko-mono/commit/a3b7498a89576a5aac4c2cd5581d8ce4d457b718))
+* **bridge-ui:** custom recipient address ([#13309](https://github.com/aligh98/taiko-mono/issues/13309)) ([56d8848](https://github.com/aligh98/taiko-mono/commit/56d884812b3f12a52895bc666cb25e6edbe6eba0))
+* **bridge-ui:** fetch transactions from relayer api ([#13244](https://github.com/aligh98/taiko-mono/issues/13244)) ([9732cc0](https://github.com/aligh98/taiko-mono/commit/9732cc084ed99196a4cd2ccedf9187af4d289ed6))
+* **bridge-ui:** more informative processing fee ([#13488](https://github.com/aligh98/taiko-mono/issues/13488)) ([f5f7b7e](https://github.com/aligh98/taiko-mono/commit/f5f7b7ee2a99ec940a73e263fb12e9378d139734))
+* **bridge-ui:** release token button ([#13203](https://github.com/aligh98/taiko-mono/issues/13203)) ([4052aad](https://github.com/aligh98/taiko-mono/commit/4052aadd01b75611be3e9b50970aeb649f2de34b))
+* **bridge-ui:** sentry integration ([#13943](https://github.com/aligh98/taiko-mono/issues/13943)) ([05baee8](https://github.com/aligh98/taiko-mono/commit/05baee8ca113b607f89c3cc25354768c8d368b46))
+* **bridge-ui:** support both bull and horse tokens on the bridge UI ([#13249](https://github.com/aligh98/taiko-mono/issues/13249)) ([f9f38bb](https://github.com/aligh98/taiko-mono/commit/f9f38bb075c02c7976e0d04c84e4b8b5ac255644))
+* **bridge-ui:** support route param to directly open transactions tab ([#13281](https://github.com/aligh98/taiko-mono/issues/13281)) ([b4c31cd](https://github.com/aligh98/taiko-mono/commit/b4c31cd8566b834cbf83a434c705fb281d375d12))
+* **bridge-ui:** switch to using StaticJsonRpcProvider ([#13482](https://github.com/aligh98/taiko-mono/issues/13482)) ([f175d39](https://github.com/aligh98/taiko-mono/commit/f175d3955e4d37e05f7bc3ba7e479dc257944876))
+* **bridge-ui:** Tabs Component ([#13380](https://github.com/aligh98/taiko-mono/issues/13380)) ([a046fa3](https://github.com/aligh98/taiko-mono/commit/a046fa3907efa85482bd9bce60de44ea2253be55))
+* **bridge-ui:** update favicon ([#13913](https://github.com/aligh98/taiko-mono/issues/13913)) ([7b0976f](https://github.com/aligh98/taiko-mono/commit/7b0976fb7239826acc178b209126624634e90548))
+* **protocol:** alpha-4 with staking-based tokenomics ([#14065](https://github.com/aligh98/taiko-mono/issues/14065)) ([1eeba9d](https://github.com/aligh98/taiko-mono/commit/1eeba9d97ed8e6e4a8d07a8b0af163a16fbc9ccf))
+* **protocol:** major protocol upgrade for alpha-3 testnet ([#13640](https://github.com/aligh98/taiko-mono/issues/13640)) ([02552f2](https://github.com/aligh98/taiko-mono/commit/02552f2aa001893d326062ce627004c61b46cd26))
+* **protocol:** merge alpha 2 to main ([#13369](https://github.com/aligh98/taiko-mono/issues/13369)) ([2b9cc64](https://github.com/aligh98/taiko-mono/commit/2b9cc6466509372f35109b48c00948d2234b0d59))
+* **relayer:** big Gas price ([#13492](https://github.com/aligh98/taiko-mono/issues/13492)) ([cb3f7b9](https://github.com/aligh98/taiko-mono/commit/cb3f7b9529addc25fe4d3067f2e2c3da3ae1b2bf))
+* **relayer:** merge alpha-2 to main ([#13376](https://github.com/aligh98/taiko-mono/issues/13376)) ([3148f6b](https://github.com/aligh98/taiko-mono/commit/3148f6ba955e1b3918289332d2ee30f139edea8b))
+
+
+### Bug Fixes
+
+* **bridge-ui:** add extra info to sentry ([#13972](https://github.com/aligh98/taiko-mono/issues/13972)) ([50a1034](https://github.com/aligh98/taiko-mono/commit/50a1034812ded4ed890f9859fc603bfc801dcdc3))
+* **bridge-ui:** Chain block ([#13452](https://github.com/aligh98/taiko-mono/issues/13452)) ([cb32862](https://github.com/aligh98/taiko-mono/commit/cb3286270c2a106b1492a78745b64b1b7dcc5ccf))
+* **bridge-ui:** Chain id check ([#13451](https://github.com/aligh98/taiko-mono/issues/13451)) ([7285947](https://github.com/aligh98/taiko-mono/commit/7285947a4e7a183ecad4555705b8d9eeb5de4341))
+* **bridge-ui:** change text of button to "bridge" ([#13163](https://github.com/aligh98/taiko-mono/issues/13163)) ([0113490](https://github.com/aligh98/taiko-mono/commit/0113490f388a986a705d970ef8b4a263de882707))
+* **bridge-ui:** filtering out BLL token failure when bridging ([#13969](https://github.com/aligh98/taiko-mono/issues/13969)) ([300be15](https://github.com/aligh98/taiko-mono/commit/300be15d3fdcdc9297a7b28427cfcdc905991306))
+* **bridge-ui:** fix issue in beforeSend ([#13971](https://github.com/aligh98/taiko-mono/issues/13971)) ([08baec0](https://github.com/aligh98/taiko-mono/commit/08baec00cfdc235c0baf3d139a8a62df6e34e914))
+* **bridge-ui:** fix issue with claim notice modal ([#13507](https://github.com/aligh98/taiko-mono/issues/13507)) ([a3e38fa](https://github.com/aligh98/taiko-mono/commit/a3e38faff37f01669e6be6878d35431cb24e40bb))
+* **bridge-ui:** fix proof ([#13748](https://github.com/aligh98/taiko-mono/issues/13748)) ([497d7ab](https://github.com/aligh98/taiko-mono/commit/497d7abd895bbda2b60311d48bca5ebe3d9755c6))
+* **bridge-ui:** fix relayer ([#13548](https://github.com/aligh98/taiko-mono/issues/13548)) ([5f60fd7](https://github.com/aligh98/taiko-mono/commit/5f60fd711c71ead82c7c147b4ff8dd12eab02c43))
+* **bridge-ui:** fix svelte-check failures ([#14137](https://github.com/aligh98/taiko-mono/issues/14137)) ([a35eac2](https://github.com/aligh98/taiko-mono/commit/a35eac28fcef02591faa0538ecbcb0fff1db5ce2))
+* **bridge-ui:** fix use max logic ([#13898](https://github.com/aligh98/taiko-mono/issues/13898)) ([1abc3ff](https://github.com/aligh98/taiko-mono/commit/1abc3ff1a83b8a87f3e40c498065743e40b4dfff))
+* **bridge-ui:** handle scientific notation ([#14105](https://github.com/aligh98/taiko-mono/issues/14105)) ([fcc154e](https://github.com/aligh98/taiko-mono/commit/fcc154e058a28cd42ad3e9239a3943668d370fad))
+* **bridge-ui:** handle wrong bridge address ([#13880](https://github.com/aligh98/taiko-mono/issues/13880)) ([fe425d9](https://github.com/aligh98/taiko-mono/commit/fe425d90d39665ceaca7d6d5ca1b13e5369ebed5))
+* **bridge-ui:** ignoring minters for BLL error ([#14457](https://github.com/aligh98/taiko-mono/issues/14457)) ([1257568](https://github.com/aligh98/taiko-mono/commit/1257568bc815d1aac8420d3c28166e62ed6ab94f))
+* **bridge-ui:** improve notice modal ([#13530](https://github.com/aligh98/taiko-mono/issues/13530)) ([3944ca8](https://github.com/aligh98/taiko-mono/commit/3944ca8bc5282c2ab0c4b11b2bb1b5f102329d59))
+* **bridge-ui:** inform connect when adding erc20 ([#13900](https://github.com/aligh98/taiko-mono/issues/13900)) ([2b21f59](https://github.com/aligh98/taiko-mono/commit/2b21f59b1171fcedfafb03cddadc5d950cf4c754))
+* **bridge-ui:** issue with decimals ([#13892](https://github.com/aligh98/taiko-mono/issues/13892)) ([fbed474](https://github.com/aligh98/taiko-mono/commit/fbed4746ec3c75972dca95238569af2a7054a5a1))
+* **bridge-ui:** migrate to wallet connect 2.0 ([#14094](https://github.com/aligh98/taiko-mono/issues/14094)) ([eda0333](https://github.com/aligh98/taiko-mono/commit/eda0333e34098684b19bc37305b90772e2bf8787))
+* **bridge-ui:** minor transactions list fix ([#13266](https://github.com/aligh98/taiko-mono/issues/13266)) ([4e78865](https://github.com/aligh98/taiko-mono/commit/4e788655ebd508eca3e1665ecb50f3010d2f51af))
+* **bridge-ui:** mobile issues ([#13927](https://github.com/aligh98/taiko-mono/issues/13927)) ([2cb5125](https://github.com/aligh98/taiko-mono/commit/2cb51255ee44ba49d1e2444f2d56433807dda81e))
+* **bridge-ui:** NETWORK_ERROR exception ([#13562](https://github.com/aligh98/taiko-mono/issues/13562)) ([a779cdb](https://github.com/aligh98/taiko-mono/commit/a779cdb3433ea6cc2e0d203cecebde3d9c121f5a))
+* **bridge-ui:** notification toast ([#13926](https://github.com/aligh98/taiko-mono/issues/13926)) ([9d0a502](https://github.com/aligh98/taiko-mono/commit/9d0a502171669258ded67c8d5a3387c98c8c52e0))
+* **bridge-ui:** only request connect if require ([#13519](https://github.com/aligh98/taiko-mono/issues/13519)) ([92e9032](https://github.com/aligh98/taiko-mono/commit/92e9032e88fb997db5e9e9801089671604f0a9bc))
+* **bridge-ui:** pending transactions custom store with better error handling ([#13581](https://github.com/aligh98/taiko-mono/issues/13581)) ([394a9d1](https://github.com/aligh98/taiko-mono/commit/394a9d188da5a6bc8e2ffdd80121cb18471b3f08))
+* **bridge-ui:** reduce sample rate ([#14051](https://github.com/aligh98/taiko-mono/issues/14051)) ([e836d7d](https://github.com/aligh98/taiko-mono/commit/e836d7da3fdd11e443618af15318b1d93bca117e))
+* **bridge-ui:** selecting chain was not informing of errors ([#13712](https://github.com/aligh98/taiko-mono/issues/13712)) ([5d29c6d](https://github.com/aligh98/taiko-mono/commit/5d29c6d06d4a7b24ef31d18c38e7f1941c322215))
+* **bridge-ui:** transaction and pendingTransaction refactor ([#13307](https://github.com/aligh98/taiko-mono/issues/13307)) ([9d215cf](https://github.com/aligh98/taiko-mono/commit/9d215cfe5ac6863405390444672a1e70e7501032))
+* **bridge-ui:** Typos in Update ProcessingFee.svelte ([#13518](https://github.com/aligh98/taiko-mono/issues/13518)) ([8edd302](https://github.com/aligh98/taiko-mono/commit/8edd302fc2ea0764c3fb96bbcc2454f154556167))
+* **bridge-ui:** update abis ([#13705](https://github.com/aligh98/taiko-mono/issues/13705)) ([d3d4e69](https://github.com/aligh98/taiko-mono/commit/d3d4e693176b8df1dcdd7321c30d66222121a05b))
+* **bridge-ui:** URL change won't update activeTab ([#13485](https://github.com/aligh98/taiko-mono/issues/13485)) ([884e782](https://github.com/aligh98/taiko-mono/commit/884e78283d8f98f20b15ff7e3e5e371df30fcd13))
+* **bridge-ui:** wrong spacing [#13339](https://github.com/aligh98/taiko-mono/issues/13339) ([#13567](https://github.com/aligh98/taiko-mono/issues/13567)) ([0ed7638](https://github.com/aligh98/taiko-mono/commit/0ed7638d8820feb22c36cc39a35cef7fea12224d))
+* **pos-dashboard:** Staking dashboard bug fixes ([#14447](https://github.com/aligh98/taiko-mono/issues/14447)) ([fd54f13](https://github.com/aligh98/taiko-mono/commit/fd54f13c19e59d9fbbab84fc85d8519eab51f623))
+* **repo:** fix multiple typos ([#13558](https://github.com/aligh98/taiko-mono/issues/13558)) ([f54242a](https://github.com/aligh98/taiko-mono/commit/f54242aa95e5c5563f8f0a7f9af0a1eab20ab67b))
+* **website,bridge-ui:** broken docs link + remove deprecated note in docs ([#13259](https://github.com/aligh98/taiko-mono/issues/13259)) ([912c155](https://github.com/aligh98/taiko-mono/commit/912c15595d7b0e3e2b4ec62fbcebeaf9dbc9db66))
+
 ## [0.9.1](https://github.com/taikoxyz/taiko-mono/compare/bridge-ui-v0.9.0...bridge-ui-v0.9.1) (2023-07-10)
 
 

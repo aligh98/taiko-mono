@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.3.0](https://github.com/aligh98/taiko-mono/compare/branding-v0.2.0...branding-v0.3.0) (2023-08-11)
+
+
+### Features
+
+* **protocol:** alpha-4 with staking-based tokenomics ([#14065](https://github.com/aligh98/taiko-mono/issues/14065)) ([1eeba9d](https://github.com/aligh98/taiko-mono/commit/1eeba9d97ed8e6e4a8d07a8b0af163a16fbc9ccf))
+* **website:** update setting up wallet docs ([#14227](https://github.com/aligh98/taiko-mono/issues/14227)) ([3751198](https://github.com/aligh98/taiko-mono/commit/3751198826c1db7de00ecb83645c13b23d1ed9e3))
+
+
+### Bug Fixes
+
+* **branding:** remove deprecated logos and wordmarks ([#13393](https://github.com/aligh98/taiko-mono/issues/13393)) ([b14472c](https://github.com/aligh98/taiko-mono/commit/b14472c55e2109a0e3a6b6a9d44c80ca36992397))
+* **repo,branding:** update to new taiko logo ([#13881](https://github.com/aligh98/taiko-mono/issues/13881)) ([0878874](https://github.com/aligh98/taiko-mono/commit/08788746a7485831d1a590073049e2d9abccadbb))
+
 ## [0.2.0](https://github.com/taikoxyz/taiko-mono/compare/branding-v0.1.2...branding-v0.2.0) (2023-07-24)
 
 

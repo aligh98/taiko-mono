@@ -1,5 +1,67 @@
 # Changelog
 
+## [0.13.0](https://github.com/aligh98/taiko-mono/compare/protocol-v0.12.0...protocol-v0.13.0) (2023-08-11)
+
+
+### Features
+
+* **protocol:** Add a setter where all fee calc params can be set with one go ([#13816](https://github.com/aligh98/taiko-mono/issues/13816)) ([a78a2f8](https://github.com/aligh98/taiko-mono/commit/a78a2f8d6a9f61d3b2ec94fefd7b1faa83da7b3c))
+* **protocol:** add isEtherReleased to Bridge ([#13204](https://github.com/aligh98/taiko-mono/issues/13204)) ([f39e65d](https://github.com/aligh98/taiko-mono/commit/f39e65da022b6af6a3f573843743aae9337c0077))
+* **protocol:** add overridable getEIP1559Config() to TaikoL2 ([#13815](https://github.com/aligh98/taiko-mono/issues/13815)) ([e15a9c1](https://github.com/aligh98/taiko-mono/commit/e15a9c18cdecd2d753d3f7384c218ed7e65fab40))
+* **protocol:** add parentGasUsed to blockproven ([#13704](https://github.com/aligh98/taiko-mono/issues/13704)) ([2ce8787](https://github.com/aligh98/taiko-mono/commit/2ce8787b66537dd6142a040b223bd1f4d8b19f89))
+* **protocol:** Add reward and fee fields to events ([#13808](https://github.com/aligh98/taiko-mono/issues/13808)) ([10be2fb](https://github.com/aligh98/taiko-mono/commit/10be2fbe57b154909c99818ac8f2196276541a9b))
+* **protocol:** Add setter to IAddressManager of AddressResolver ([#13799](https://github.com/aligh98/taiko-mono/issues/13799)) ([34de89c](https://github.com/aligh98/taiko-mono/commit/34de89cdbdc99cd240571c24d6f0bc3770d7f916))
+* **protocol:** add TaikoGovernor and improve TaikoToken ([#13711](https://github.com/aligh98/taiko-mono/issues/13711)) ([ad75cd5](https://github.com/aligh98/taiko-mono/commit/ad75cd5476d10886b337c8da2e95a2c5ea043a57))
+* **protocol:** alpha-4 with staking-based tokenomics ([#14065](https://github.com/aligh98/taiko-mono/issues/14065)) ([1eeba9d](https://github.com/aligh98/taiko-mono/commit/1eeba9d97ed8e6e4a8d07a8b0af163a16fbc9ccf))
+* **protocol:** Change back token decimals ([#13707](https://github.com/aligh98/taiko-mono/issues/13707)) ([82f1677](https://github.com/aligh98/taiko-mono/commit/82f1677b18c8dd90f2afc3fcefe5f60a9d8df670))
+* **protocol:** Change require to custom err in bridge contracts ([#13220](https://github.com/aligh98/taiko-mono/issues/13220)) ([6e8cb82](https://github.com/aligh98/taiko-mono/commit/6e8cb82b477fa1a3ebf842dc4bf0dd0820d19e07))
+* **protocol:** Deploy a FreeMintERC20 and a MayFailFreeMintERC20 on deploy of L1 ([#13222](https://github.com/aligh98/taiko-mono/issues/13222)) ([0d3e769](https://github.com/aligh98/taiko-mono/commit/0d3e7692489c4ed5eadafae7aebde49000c03a7f))
+* **protocol:** disable contracts as msg.sender ([#13206](https://github.com/aligh98/taiko-mono/issues/13206)) ([66316e9](https://github.com/aligh98/taiko-mono/commit/66316e9cb74a167e1ce437616e47afec95458c6f))
+* **protocol:** do not allow using owner() as named address in AddressManager ([#13771](https://github.com/aligh98/taiko-mono/issues/13771)) ([12c810f](https://github.com/aligh98/taiko-mono/commit/12c810f7f8911bc6b6540bbab276433966f96715))
+* **protocol:** Gas limit behavior changes ([#14339](https://github.com/aligh98/taiko-mono/issues/14339)) ([06710eb](https://github.com/aligh98/taiko-mono/commit/06710eb41132f7b920d80053ed8b906d90c18bb3))
+* **protocol:** Introduce oracle and system prover concept ([#13729](https://github.com/aligh98/taiko-mono/issues/13729)) ([e8ba716](https://github.com/aligh98/taiko-mono/commit/e8ba7168231f9a8bbef1378fa93448b11c4267ac))
+* **protocol:** L2/L3 contracts proxied ([#13725](https://github.com/aligh98/taiko-mono/issues/13725)) ([7e6291f](https://github.com/aligh98/taiko-mono/commit/7e6291f3be215789759d5d36e2451fab3154979f))
+* **protocol:** let `PlonkVerifier` return `keccak256("taiko")` ([#13277](https://github.com/aligh98/taiko-mono/issues/13277)) ([8ca632c](https://github.com/aligh98/taiko-mono/commit/8ca632ce9263219a37368d1f0f84a44cbb369794))
+* **protocol:** LibFixedPointMath contract library license different MAX_EXP_INPUT values ([#14344](https://github.com/aligh98/taiko-mono/issues/14344)) ([c6e391d](https://github.com/aligh98/taiko-mono/commit/c6e391d37c91623bf2673d86042c17892f5af54c))
+* **protocol:** major protocol upgrade for alpha-3 testnet ([#13640](https://github.com/aligh98/taiko-mono/issues/13640)) ([02552f2](https://github.com/aligh98/taiko-mono/commit/02552f2aa001893d326062ce627004c61b46cd26))
+* **protocol:** make sure system proof delay is proofTimeTarget ([#13742](https://github.com/aligh98/taiko-mono/issues/13742)) ([c359dd9](https://github.com/aligh98/taiko-mono/commit/c359dd9c39657ca4deac23d8cd7765a5ae58e8f3))
+* **protocol:** merge alpha 2 to main ([#13369](https://github.com/aligh98/taiko-mono/issues/13369)) ([2b9cc64](https://github.com/aligh98/taiko-mono/commit/2b9cc6466509372f35109b48c00948d2234b0d59))
+* **protocol:** Move proofTimeTarget to state var and adjust scripts/tests ([#13769](https://github.com/aligh98/taiko-mono/issues/13769)) ([40086b1](https://github.com/aligh98/taiko-mono/commit/40086b100e9394d8bb276d7f53018859b1684680))
+* **protocol:** optimize gas for processMessage & retryMessage ([#13181](https://github.com/aligh98/taiko-mono/issues/13181)) ([178e382](https://github.com/aligh98/taiko-mono/commit/178e3823d9ca8a0396ef2a7198c064368feaca90))
+* **protocol:** proxy upgrade scripts ([#13944](https://github.com/aligh98/taiko-mono/issues/13944)) ([ccef198](https://github.com/aligh98/taiko-mono/commit/ccef19838ec3097860e6c6d91df143376c6fbb86))
+* **protocol:** Scale up damping factor and flatten curve ([#13809](https://github.com/aligh98/taiko-mono/issues/13809)) ([b1dcb59](https://github.com/aligh98/taiko-mono/commit/b1dcb591729a382fc10617a409fae6557ac2f4fa))
+* **protocol:** tokens can only mint once ([#13252](https://github.com/aligh98/taiko-mono/issues/13252)) ([72d152b](https://github.com/aligh98/taiko-mono/commit/72d152b7d998b9f306a12823df964a2da18687dd))
+* **protocol:** update `LibBlockHeader` to hash post Shanghai fork blocks ([#13278](https://github.com/aligh98/taiko-mono/issues/13278)) ([2e34634](https://github.com/aligh98/taiko-mono/commit/2e34634560a28c356404f2d837d21f2e5e85bfa3))
+* **protocol:** update `PlonkVerifier` ([#13805](https://github.com/aligh98/taiko-mono/issues/13805)) ([6f9f022](https://github.com/aligh98/taiko-mono/commit/6f9f02242b2830c7597f29c1a4d5ee5b2314510c))
+* **protocol:** update `PlonkVerifier` based on the latest circuits changes ([#13767](https://github.com/aligh98/taiko-mono/issues/13767)) ([a9305d5](https://github.com/aligh98/taiko-mono/commit/a9305d552804e0b1b241615de78c1a75179c2f6b))
+* **protocol:** update `PlonkVerifier` to accept new public inputs ([#13208](https://github.com/aligh98/taiko-mono/issues/13208)) ([9804099](https://github.com/aligh98/taiko-mono/commit/9804099ac477d320b3c2019f6565d3caadefdcfb))
+* **protocol:** update PlonkVerifer ([#13741](https://github.com/aligh98/taiko-mono/issues/13741)) ([523f95b](https://github.com/aligh98/taiko-mono/commit/523f95b2077dbe119f406d635a96376c169723b1))
+* **protocol:** update PlonkVerifier for new L3 circuits ([#14023](https://github.com/aligh98/taiko-mono/issues/14023)) ([9d7bc39](https://github.com/aligh98/taiko-mono/commit/9d7bc39c282c6ceb0e62146aa6271d5ceaee7633))
+* **protocol:** use ring buffer for ETH deposit and optimize storage ([#13868](https://github.com/aligh98/taiko-mono/issues/13868)) ([acffb61](https://github.com/aligh98/taiko-mono/commit/acffb61b13b44fd4792e8f4a31498d788ca38961))
+* **relayer:** merge alpha-2 to main ([#13376](https://github.com/aligh98/taiko-mono/issues/13376)) ([3148f6b](https://github.com/aligh98/taiko-mono/commit/3148f6ba955e1b3918289332d2ee30f139edea8b))
+* **website:** Docs Taiko L2 EIP-1559 high level overview ([#14187](https://github.com/aligh98/taiko-mono/issues/14187)) ([ac52f57](https://github.com/aligh98/taiko-mono/commit/ac52f575b6ac5a173bc6e96679f0614fcd61aa27))
+
+
+### Bug Fixes
+
+* **protocol:** allow Bridge to receive ETHs from TaikoL1 ([#13737](https://github.com/aligh98/taiko-mono/issues/13737)) ([a75609c](https://github.com/aligh98/taiko-mono/commit/a75609c02c651e3b374391e5fc7c6c696658ff28))
+* **protocol:** fix `PlonkVerifier`'s name in `AddressManager` ([#13229](https://github.com/aligh98/taiko-mono/issues/13229)) ([7170bd9](https://github.com/aligh98/taiko-mono/commit/7170bd966b02d986b26baf5991f47015a46cca64))
+* **protocol:** fix `TaikoL1.init()` call arguments in `DeployOnL1` script ([#13774](https://github.com/aligh98/taiko-mono/issues/13774)) ([7bffff4](https://github.com/aligh98/taiko-mono/commit/7bffff40494c734acc880a976056a24cdea63749))
+* **protocol:** fix config.slotSmoothingFactor and getTimeAdjustedFee bug ([#13293](https://github.com/aligh98/taiko-mono/issues/13293)) ([18f3d9f](https://github.com/aligh98/taiko-mono/commit/18f3d9fcf99691f54b65198618c49e57590b0a84))
+* **protocol:** fix deployonl1 script ([#13740](https://github.com/aligh98/taiko-mono/issues/13740)) ([ec5349a](https://github.com/aligh98/taiko-mono/commit/ec5349a9bf3535f5fb5c111555438c156ec53719))
+* **protocol:** fix issue for fee-collecting eth-deposit ([#13864](https://github.com/aligh98/taiko-mono/issues/13864)) ([c53b135](https://github.com/aligh98/taiko-mono/commit/c53b135aa2e78dc2f829a79c20f12bf2d48a247a))
+* **protocol:** Fix name mismatch(build) issue ([#13803](https://github.com/aligh98/taiko-mono/issues/13803)) ([e55e39a](https://github.com/aligh98/taiko-mono/commit/e55e39a7652e0af484dab9ac58cb2d3e8a668c38))
+* **protocol:** Fix ProverPool bug, clear proverId when exit ([#14411](https://github.com/aligh98/taiko-mono/issues/14411)) ([8dd7481](https://github.com/aligh98/taiko-mono/commit/8dd7481887a89309154c1fe2be424e41e01d9a0c))
+* **protocol:** hash deposit IDs ([#13853](https://github.com/aligh98/taiko-mono/issues/13853)) ([d3aea36](https://github.com/aligh98/taiko-mono/commit/d3aea36ce715d45ba444dbc261a3efff4912e9b1))
+* **protocol:** make download solc script can run outside the protocol dir ([#13263](https://github.com/aligh98/taiko-mono/issues/13263)) ([7cd7787](https://github.com/aligh98/taiko-mono/commit/7cd77873d0ce1e5f8b43167a8009327cca4200c3))
+* **protocol:** rename treasure to treasury ([#13780](https://github.com/aligh98/taiko-mono/issues/13780)) ([ccecd70](https://github.com/aligh98/taiko-mono/commit/ccecd708276bce3eca84b92c7c48c95b2156dd18))
+* **protocol:** Replace LibEthDeposit assembly ([#13781](https://github.com/aligh98/taiko-mono/issues/13781)) ([285c756](https://github.com/aligh98/taiko-mono/commit/285c756c270fa4041c10aa06d95e2067fcc1b69f))
+* **protocol:** Wrong calculation when minting ERC20 tokens ([#13250](https://github.com/aligh98/taiko-mono/issues/13250)) ([5920b7e](https://github.com/aligh98/taiko-mono/commit/5920b7eee377e913c10b5b78384f24712808f179))
+* **relayer:** new abi gen bindings ([#13342](https://github.com/aligh98/taiko-mono/issues/13342)) ([8655ff1](https://github.com/aligh98/taiko-mono/commit/8655ff16f3de7445f01b4fd502d183d93e394e1a))
+* **relayer:** Out of gas ([#13778](https://github.com/aligh98/taiko-mono/issues/13778)) ([a42a33b](https://github.com/aligh98/taiko-mono/commit/a42a33b30bc0daec707ff51cc639c966642e50ca))
+* **repo:** fix multiple typos ([#13558](https://github.com/aligh98/taiko-mono/issues/13558)) ([f54242a](https://github.com/aligh98/taiko-mono/commit/f54242aa95e5c5563f8f0a7f9af0a1eab20ab67b))
+* **repo:** fix typos ([#14165](https://github.com/aligh98/taiko-mono/issues/14165)) ([020972a](https://github.com/aligh98/taiko-mono/commit/020972acd0e71877b5f0d76e6a5319f5a814038e))
+
 ## [0.12.0](https://github.com/taikoxyz/taiko-mono/compare/protocol-v0.11.0...protocol-v0.12.0) (2023-07-24)
 
 
