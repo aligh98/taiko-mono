@@ -1,5 +1,41 @@
 # Changelog
 
+## [0.13.0](https://github.com/aligh98/taiko-mono/compare/status-page-v0.12.0...status-page-v0.13.0) (2023-08-11)
+
+
+### Features
+
+* **eventindexer:** add stats tracking ([#13810](https://github.com/aligh98/taiko-mono/issues/13810)) ([bfbbb97](https://github.com/aligh98/taiko-mono/commit/bfbbb97fcb67dc33749f0f08f84b8bd54eae9aeb))
+* **eventindexer:** Event indexer ([#13439](https://github.com/aligh98/taiko-mono/issues/13439)) ([08b26d2](https://github.com/aligh98/taiko-mono/commit/08b26d21577ed8ecd14beed5a600108fe7a0f765))
+* **eventindexer:** galaxe api, 2 indexing, http only mode, event query optimizations ([#14122](https://github.com/aligh98/taiko-mono/issues/14122)) ([9c6d918](https://github.com/aligh98/taiko-mono/commit/9c6d918c8c7c474da88912fafa59e2a2f054f3b7))
+* **eventindexer:** ProposeEvents filtering, API exposing, and getting count by address/event + tests ([#13624](https://github.com/aligh98/taiko-mono/issues/13624)) ([839a0be](https://github.com/aligh98/taiko-mono/commit/839a0bef7c64dd2b1e2ecc5194cf9a1e29f9a0cd))
+* **protocol:** major protocol upgrade for alpha-3 testnet ([#13640](https://github.com/aligh98/taiko-mono/issues/13640)) ([02552f2](https://github.com/aligh98/taiko-mono/commit/02552f2aa001893d326062ce627004c61b46cd26))
+* **protocol:** merge alpha 2 to main ([#13369](https://github.com/aligh98/taiko-mono/issues/13369)) ([2b9cc64](https://github.com/aligh98/taiko-mono/commit/2b9cc6466509372f35109b48c00948d2234b0d59))
+* **protocol:** use ring buffer for ETH deposit and optimize storage ([#13868](https://github.com/aligh98/taiko-mono/issues/13868)) ([acffb61](https://github.com/aligh98/taiko-mono/commit/acffb61b13b44fd4792e8f4a31498d788ca38961))
+* **relayer:** merge alpha-2 to main ([#13376](https://github.com/aligh98/taiko-mono/issues/13376)) ([3148f6b](https://github.com/aligh98/taiko-mono/commit/3148f6ba955e1b3918289332d2ee30f139edea8b))
+* **status-page:** disable L3 on boolean env var ([#13838](https://github.com/aligh98/taiko-mono/issues/13838)) ([fed0ca0](https://github.com/aligh98/taiko-mono/commit/fed0ca0e9a9176c3feaae38b426df45e09d9af3a))
+* **status-page:** handle multiple layers ([#13770](https://github.com/aligh98/taiko-mono/issues/13770)) ([92a4d56](https://github.com/aligh98/taiko-mono/commit/92a4d56c7f3b42151b913b053e6717fca3adc347))
+* **status-page:** order the provers by count descending ([#13504](https://github.com/aligh98/taiko-mono/issues/13504)) ([49db97d](https://github.com/aligh98/taiko-mono/commit/49db97d75019d71beb8466c646934bfabba5b13d))
+* **status-page:** remove is halted ([#13231](https://github.com/aligh98/taiko-mono/issues/13231)) ([d3d1c39](https://github.com/aligh98/taiko-mono/commit/d3d1c3952a2f459363e40e9052ea76422845c81e))
+* **status-page:** show latest proof reward ([#13842](https://github.com/aligh98/taiko-mono/issues/13842)) ([12a6d04](https://github.com/aligh98/taiko-mono/commit/12a6d04541404f8d4258e39c442102cf526c73eb))
+* **status-page:** Status decimals fix + L2 EIP1559 stats added ([#13832](https://github.com/aligh98/taiko-mono/issues/13832)) ([3871641](https://github.com/aligh98/taiko-mono/commit/38716418801e2d0f84181c891dbfb1bfa3a4f9f0))
+* **status-page:** updates for a3 ([#13821](https://github.com/aligh98/taiko-mono/issues/13821)) ([7ed816d](https://github.com/aligh98/taiko-mono/commit/7ed816d8db7ac75468faa235c09f147db5009034))
+
+
+### Bug Fixes
+
+* **protocol:** rename treasure to treasury ([#13780](https://github.com/aligh98/taiko-mono/issues/13780)) ([ccecd70](https://github.com/aligh98/taiko-mono/commit/ccecd708276bce3eca84b92c7c48c95b2156dd18))
+* **repo:** fix multiple typos ([#13558](https://github.com/aligh98/taiko-mono/issues/13558)) ([f54242a](https://github.com/aligh98/taiko-mono/commit/f54242aa95e5c5563f8f0a7f9af0a1eab20ab67b))
+* **status-page:** add max height and scrollable to prover details popup ([#13498](https://github.com/aligh98/taiko-mono/issues/13498)) ([d126791](https://github.com/aligh98/taiko-mono/commit/d126791775bbaa59a107975077b9d32811bd09ea))
+* **status-page:** add some padding to the status page ([#13392](https://github.com/aligh98/taiko-mono/issues/13392)) ([0034508](https://github.com/aligh98/taiko-mono/commit/0034508027be35595f4e9aafc23fee308604b25e))
+* **status-page:** eth deposit display ([#13763](https://github.com/aligh98/taiko-mono/issues/13763)) ([fedab00](https://github.com/aligh98/taiko-mono/commit/fedab00148c332a5538265100b103dab9fff98e5))
+* **status-page:** fix stretched favicon ([#13982](https://github.com/aligh98/taiko-mono/issues/13982)) ([103f1ae](https://github.com/aligh98/taiko-mono/commit/103f1aea772c5eb5e9a293f2ba661d0c4eb96156))
+* **status-page:** hide fee related statuses ([#13450](https://github.com/aligh98/taiko-mono/issues/13450)) ([31ad254](https://github.com/aligh98/taiko-mono/commit/31ad2548387c712d77b0dcbb35b53222546d7417))
+* **status-page:** latest proof time ([#13511](https://github.com/aligh98/taiko-mono/issues/13511)) ([c0bc671](https://github.com/aligh98/taiko-mono/commit/c0bc671572a13b48d33ea567fc884a72e51f2be0))
+* **status-page:** proposer title ([#14058](https://github.com/aligh98/taiko-mono/issues/14058)) ([412ba70](https://github.com/aligh98/taiko-mono/commit/412ba70b7f313c4e81d3b773733e8940d16df6e1))
+* **status-page:** Status page slots ([#13605](https://github.com/aligh98/taiko-mono/issues/13605)) ([f0c291f](https://github.com/aligh98/taiko-mono/commit/f0c291f671cfe5b81b2f567ee7701a73edb79095))
+* **status-page:** use ttko from env ([#13998](https://github.com/aligh98/taiko-mono/issues/13998)) ([2c83f3b](https://github.com/aligh98/taiko-mono/commit/2c83f3b8faad27315ec25d6150327631320b0798))
+
 ## [0.12.0](https://github.com/taikoxyz/taiko-mono/compare/status-page-v0.11.0...status-page-v0.12.0) (2023-07-10)
 
 
